@@ -45,10 +45,12 @@ public class sortingController
 
 	private void fillTheStringArray()
 	{
-		
+		words = new String[1];
+	
 	}
 	private void fillTheDoubleArray()
 	{
+		real = new double [1];
 		
 	}
 }
