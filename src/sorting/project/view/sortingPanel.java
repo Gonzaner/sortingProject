@@ -21,6 +21,13 @@ public class sortingPanel extends JPanel
 	{
 		this.baseController = baseController;
 
+		scrambleButton = new JButton("Scramble arrays");
+		sortButton = new JButton("Sort");
+		searchButton = new JButton("Search");
+		userField = new JTextField(25);
+		displayArea = new JTextArea(10,25);
+		displayPane = new JScrollPane(displayArea);
+		baseLayout = new SpringLayout();
 		setupTable();
 		setupPanel();
 		setupLayout();
@@ -31,9 +38,7 @@ public class sortingPanel extends JPanel
 
 	private void setupTable()
 	{
-		displayPane = new JScrollPane(displayPane);
-		displayArea = new JTextArea();
-		userField = new JTextField();
+
 	}
 	
 	private void setupPanel()

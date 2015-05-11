@@ -26,12 +26,12 @@ public class Keyboards implements Comparable
 		
 		if(otherKeyboard instanceof Keyboards)
 		
-		if(this.price <((Keyboards) otherKeyboard).getName().length() )
+		if(this.price <((Keyboards) otherKeyboard).price )
 		{
 			comparedValue = -1;
 			
 		}
-		else if(this.price >((Keyboards) otherKeyboard).getName().length() )
+		else if(this.price >((Keyboards) otherKeyboard).price )
 		{
 			comparedValue = 1;
 			
